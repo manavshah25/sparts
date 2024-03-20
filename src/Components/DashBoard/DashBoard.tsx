@@ -69,12 +69,12 @@ const DashBoard = () => {
                 </div>
               </div>
               <div className="xxs:col-span-12 p-4 drop-shadow-md flex justify-evenly items-center h-[100%] rounded-md bg-gray-100">
-              <div className="w-[50%]">
+              <div className="w-[50%] xxs:max-md:hidden">
                 {" "}
                 <BarAnimation dataX={dataX} value={true} />
               </div>
               <hr className="bg-gray-300 align-middle"></hr>
-              <div className="w-[50%]">
+              <div className="w-[50%] xxs:max-md:hidden">
                 {" "}
                 <BarAnimation dataX={dataXtwo} value={false} />
               </div>
